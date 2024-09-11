@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table with="500px">
+            <caption><h3>Đăng ký thông tin người sử dụng</h3></caption>
+            <tr>
+                <td with="150">Họ và tên</td>
+                <td><input type="text" name="fullName" id="fullName" size="30" /></td>
+            </tr>
+
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password" name="pass" id="pass" size="30" /></td>
+            </tr>
+
+            <tr>
+                <td>Nhập lại mật khẩu</td>
+                <td><input type="password" name="pass" id="pass" size="30" /></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" id="avatar" size="30" /></td>
+            </tr>
+
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="1" />
+                    <label for="male">Nam</label>
+                    <input type="radio" name="gender" id="female" value="0" />
+                    <label for="female">Nữ</label>
+                </td>
+
+                <tr>
+                    <td>Sở thích</td>
+                    <td>
+                        <input type="checkbox" name="tuoi" id="tuoi" />
+                        <label for="tuoi">Dưới 13 tuổi</label>
+                        <input type="checkbox" name="tuoi" id="tuoi" />
+                        <label for="tuoi">Từ 13 tuổi đến 17 tuổi</label>
+                        <input type="checkbox" name="tuoi" id="tuoi" />
+                        <label for="tuoi">Từ 18 tuổi đến 25 tuổi</label>
+                        <input type="checkbox" name="tuoi" id="tuoi" />
+                        <label for="tuoi">Trên 25 tuổi</label>
+                    </td>
+                </tr>
+
+                <tr></tr>
+                    <td>Sở thích</td>
+                    <td>
+                        <input type="checkbox" name="bongda" id="bongda" />
+                        <label for="bongda">Bóng đá</label>
+                        <input type="checkbox" name="xemphim" id="xemphim" />
+                        <label for="xemphim">Xem phim</label>
+                        <input type="checkbox" name="dulich" id="dulich" />
+                        <label for="dulich">Du lịch</label>
+                        <input type="checkbox" name="boi" id="boi" />
+                        <label for="boi">Bơi</label>
+                        <input type="checkbox" name="nghenhac" id="nghenhac" />
+                        <label for="nghenhac">Nghe nhạc</label>
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <tr>
+                    <td>Quê quán</td>
+                    <td>
+                        <select name="province" id="province">
+                            <option value="">Chọn nghành nghề</option>
+                            <option value="">Công nghệ thông tin</option>
+                            <option value="">Giám đốc</option>
+                            <option value="">Trưởng phòng</option>
+                            <option value="">Tài xế</option>
+                            <option value="">Nhân viên</option>
+                            <option value="">Con của vua</option> 
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Mô tả ngắn</td>
+                    <td>
+                        <textarea name="description" cols="40" rows="5"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Đăng ký" name="register" />
+                        <input type="reset" value="làm lại" name="reset" />
+                    </td>
+                </tr>
+
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
