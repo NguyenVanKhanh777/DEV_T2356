@@ -1,0 +1,29 @@
+làm vc với css
+- nhúng css vào trang html
+    + stype inline: phạm vi sd với thẻ html hiện tại
+    + tag stype: phạm vi sd trên toàn bọ trang html
+    + external stype (file.css): phạm vi sd trên toàn bộ site
+        ++ nhúng file css bằng thẻ link
+    - bộ chọn:
+        + bộ chọn phần tử: html, body, h1...
+        + bộ chọn id: #id (VD: #zone1{...})
+        + bộ chọn class:
+    -bộ chọn ngữ cảnh 
+        ++ :hover
+        ++ :before / :after
+        ...
+    - bộ chọn giá trị thuộc tính:
+        ++ tag[attr = value {...}; #id{...}{...}; class-name[]attr=value]{}
+
+
+
+
+
+
+
+
+
+
+
+
+        
