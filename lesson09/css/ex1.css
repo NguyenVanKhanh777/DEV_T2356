@@ -1,0 +1,41 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+   body {
+    background-color: red;
+   }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        background-color: brown;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        background-color: rgb(42, 165, 122);
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        background-color: rgb(83, 27, 150);
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    body {
+        background-color: rgb(142, 91, 91);
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1920px) {
+    body {
+        background-color: rgb(56, 3, 3);
+    }
+}
