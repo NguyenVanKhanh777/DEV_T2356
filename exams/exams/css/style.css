@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rebeccapurple;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 1px 0;
+    font-size: 2 rem;
+}
+
+
+.new {
+    padding: 70px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.col {
+    border: 1px solid #fffafa;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+}
+
+.col h3 {
+    font-size: 1.2em;
+    margin: 10px;
+    color: rgb(62, 93, 83);
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.number a {
+    margin: 5px;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.number a:hover {
+    background-color: rebeccapurple;
+}
+
+footer {
+    background-color: #ddccb2;
+    color: white;
+    padding: 10px 0;
+}
+
+.footer-section h3 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.footer-section h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section img {
+    width: 3rem;
+    margin-bottom: 15px;
+
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: margin-left 0.75s ease;
+}
+.footer-section ul li a:hover{
+    color: red;
+}
+
+.footer-section a img {
+    margin-right: 10px;
+}
+#mail, #phone{
+    text-decoration: none;
+    color:#000000;
+}   
+#phone:hover{
+    color: red;
+}
+
+#note{
+    margin:1rem;
+    color: #000000;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .col {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1600px and up) */
+@media (min-width: 1600px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1920px and up) */
+@media (min-width: 1600px) {
+
+}
