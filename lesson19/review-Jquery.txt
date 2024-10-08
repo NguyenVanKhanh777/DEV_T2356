@@ -1,0 +1,19 @@
+# library:
+-- local: tải về project từ trang chủ: https://jquery.com/
+-- api: (CDN, cloud,...): 
+    --: nhúng vào phần head; khiến nghị nên nhúng ở cuối trang html, trước thẻ đóng body
+
+#Syntax:
+$(document).ready(function(){
+    --các câu lệnh sử dụng jquery
+
+    --Tương tác:
+    $(selector).action(...)
+        -- selector: html, tag, #id, class-name, css selector,...
+        -- Ví dụ:
+            $('#zone1').css("color","red");
+            $('#zone1').css({
+                'color':'red',
+                'background-color':'green'
+            });
+});
